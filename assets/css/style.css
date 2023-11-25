@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     /* border: 1px solid lime;  */
+    /* border: 1px solid lime;  */
 }
 /* generali classi */
 .flex{
@@ -16,6 +16,7 @@
 .block{
     display: block
 }
+
 
 .btn-blu{
     background-color: rgb(8,97,255);
@@ -114,4 +115,71 @@ body{
 }
 .icons svg{
  margin-top: 120px;
+}
+/* secondo row main */
+
+.row2{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 200px;
+}
+
+.radio{
+    margin-top: 75px;
+}
+.type-radio{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.colonna-principale{
+    margin: 50px auto 0px;
+    width: 100%;
+    gap: 45px;
+}
+.colonne{
+    margin-top: 50px;
+    border: 1px solid gray;
+    width: 300px;
+    
+}
+.colonne h4{
+    line-height: 45px;
+    
+ }
+
+.colonne span{
+   line-height: 45px;
+   display: block;
+}
+
+
+.piani-costo{
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.utente{
+    margin-top: 30px;
+}
+
+.tasto{
+    margin: 55px auto 40px;
+}
+
+.testo-colonne{
+    padding: 15px;
+}
+
+#colonne-divisore{
+    margin: 0px 10px 0px 0px;
+    width: 30%;
+}
+.punti{
+    margin-top: 30px;
 }
