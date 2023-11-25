@@ -78,13 +78,13 @@ body{
     height: 77vh;
 }
 .row1-container1{
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
     justify-content: flex-start;
     padding-top: 100px;
 }
 .row1-container2{
-    width: 65%;
+    width: 75%;
     margin: 80px auto 0px;
     justify-content: flex-end;
 }
@@ -127,7 +127,7 @@ body{
 
 .row2{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     margin-top: 200px;
 }
 
@@ -151,7 +151,7 @@ body{
 .colonne{
     margin-top: 50px;
     border: 1px solid gray;
-    width: 300px;
+    width: 365px;
     
 }
 .colonne h4{
@@ -197,7 +197,7 @@ body{
 .container-orizontale{
     border: 1px solid grey;
     margin: 40px 0 auto;
-    width:99% ;
+    width:100% ;
 }
 .container2-orizontale{
     padding: 0px 30px 30px;
@@ -227,7 +227,7 @@ body{
 
 .row3{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     margin-top: 100px;
 }
 .row3-container{
@@ -253,6 +253,101 @@ body{
 
 .row4{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     margin-top: 100px;
+}
+.row4-colonna2{
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.container-operazioni{
+    width:30%;
+    line-height: 70px;
+}
+
+/* quinto row main */
+
+.row5{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 150px;
+}
+.row5-container1{
+    line-height: 90px;
+}
+/* sento row main */
+
+.row6{
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 100px;
+}
+
+.row6-container1,
+.row6-container2,
+.row6-container3{
+width: calc(100% / 3);
+flex-wrap: wrap;
+}
+.row6-container2{
+    justify-content: start;
+    padding: 40px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+.row6-container2 img{
+    width: 50%;
+}
+
+
+.row6-logo{
+    border: 1px solid red;
+    width:50%;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+}
+
+.row6-logo img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hr2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+.testo-designit p{
+    margin-bottom: 50px;
+}
+/* settimo row del main */
+
+.row7{
+    width: 100%;
+    height: auto;
+    background-color: rgb(180,208,231);
+    height: 30vh;
+    
+}
+
+.row7-container{
+    width: 60%;
+    margin: 0 auto;
+    align-items: center; 
+    justify-content: center;
+}
+.row7-colonna1{
+    width: 60%;
+    align-items: center; 
+}
+.row7-colonna2{
+    width: 40%;
+    align-items: center; 
+    justify-content: center;
 }
