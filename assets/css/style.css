@@ -24,6 +24,13 @@
     padding: 10px 15px;
     font-size: 20px;
 }
+.btn-white{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+}
 p{
     font-size: 20px;
     line-height: 25px;
@@ -162,6 +169,7 @@ body{
     border-bottom: 1px solid gray;
     margin-bottom: 30px;
     text-align: center;
+    padding: 10px;
 }
 
 .utente{
@@ -182,4 +190,69 @@ body{
 }
 .punti{
     margin-top: 30px;
+}
+
+/* colonna orizontale */
+
+.container-orizontale{
+    border: 1px solid grey;
+    margin: 40px 0 auto;
+    width:99% ;
+}
+.container2-orizontale{
+    padding: 0px 30px 30px;
+}
+
+.piani-costo{
+    justify-content: center;
+
+}
+.colonna-orizontale1{
+    width: 60%;
+    line-height: 50px;
+}
+.colonna-orizontale2{
+    width: 40%;
+    position: relative;
+}
+.tasto-orizontale{
+    position: absolute;
+    right: 10px;
+}
+.paragraf{
+    margin-top: 40px;
+}
+
+/* terzo row main */
+
+.row3{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 100px;
+}
+.row3-container{
+    gap: 20px;
+}
+
+.row3-colonna1{
+    width: 60%;
+}
+.row3-colonna1 img{
+    height: 100%;
+}
+.row3-colonna2{
+    width: 40%;
+    justify-content: center;
+    padding: 40px;
+    line-height: 80px;
+}
+.container-btn-white{
+    margin-top: 25px;
+}
+/* quarto row main */
+
+.row4{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 100px;
 }
