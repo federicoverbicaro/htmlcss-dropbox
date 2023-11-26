@@ -39,6 +39,9 @@ body{
     font-family:sans-serif;
 }
 
+.row-titoli{
+    margin-top: 150px;
+}
 
 /* container header */
 .container-header {
@@ -332,7 +335,7 @@ flex-wrap: wrap;
     width: 100%;
     height: auto;
     background-color: rgb(180,208,231);
-    height: 30vh;
+    height: 47vh;
     
 }
 
@@ -350,4 +353,99 @@ flex-wrap: wrap;
     width: 40%;
     align-items: center; 
     justify-content: center;
+}
+/* ottavo row main */
+
+.row8{
+    width: 100%;
+    height: auto;
+    
+}
+.row8-container1{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.row8-lista{
+    list-style-type: none;
+}
+
+.none{
+    display: none;
+}
+.row8-lista ul li:hover p{
+    display: block;
+}
+.row8-lista ul li{
+    list-style-type: none;
+    padding: 30px;
+}
+.row8-lista ul li span{
+  align-content: end;
+}
+.row8-lista{
+    margin-top: 50px;
+    width: 90%;
+   
+}
+.accordion .chevron{
+    float:right;
+}
+.accordion-paragraph{
+    padding:28px 0 0 0;
+}
+.accordion div{
+    font-weight:600;
+}
+
+.brd-top{
+    border-top: 1px solid;
+    border-color: #aeaeae;
+}
+.brd-bottom{
+    border-bottom: 1px solid;
+    border-color: #aeaeae;
+}
+/* pirmo row footer */
+
+.row1-footer{
+    width: 100%;
+    background-color: black;
+    
+}
+
+.row1-container1{
+    width: 75%;
+    margin: 0 auto;
+}
+.row1-colonna1{
+    width: 100%;
+     margin: 0 auto;
+}
+.colonna-lista ul {
+    list-style-type: none;
+    color: white;
+    width: 100%;
+
+}
+.colonna-lista{
+    width: calc(100% / 5);
+}
+.lingue{
+    width: 75%;
+    margin: 0 auto;
+}
+.lingue hr{
+    margin-top: 50px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.lingue svg {
+  background-color: white;
+  color: white;
+}
+.lingue ul li{
+    color: white;
+    display: inline;
 }
