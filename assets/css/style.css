@@ -77,6 +77,9 @@ body{
 .row-titoli{
     margin-top: 150px;
 }
+.min-heigth-110{
+    min-height: 110px;
+}
 
 /* container header */
 .container-header {
@@ -111,7 +114,6 @@ figure.flex.logo {
     padding: 0;
     display: flex;
     gap: 20px;
-    align-items: baseline;
 }
 
 .colonna1 ul li,
@@ -156,10 +158,11 @@ border-bottom: 1px solid black;
 }
 
 .row1-container1 h1{
-    width: 70%;
+    width: 80%;
     font-size: 80px;
     font-family: sans-serif;
     font-weight: 900;
+    margin-top: 80px;
    
 }
 
@@ -178,6 +181,10 @@ border-bottom: 1px solid black;
     width: 80%;
     margin-top: 45px;
     margin-bottom: 45px;
+}
+.btn-blu.btn-header{
+    margin-bottom: 0px;
+
 }
 .row1-colonna2 img{
     position: absolute;
@@ -535,6 +542,7 @@ flex-wrap: wrap;
 .row1-footer{
     width: 100%;
     background-color: black;
+    padding-bottom: 50px;
     
 }
 .row1-footer hr{
