@@ -5,6 +5,9 @@
     /* border: 1px solid lime;  */
 }
 /* generali classi */
+body{
+    text-transform: capitalize;
+}
 .flex{
     display: flex;
 
@@ -16,14 +19,18 @@
 .block{
     display: block
 }
+.margin-top{
+    margin-top: 20px;
+}
 
 
 .btn-blu  {
     background-color: rgb(8,97,255);
-    color: white;
+    color: white ;
     padding: 10px 15px;
     border: none;
     font-size: 20px;
+    margin-bottom: 35px;
 }
 .btn-blu .brd  {
     color: white;
@@ -37,10 +44,14 @@
 .btn-white{
     background-color: white;
     border: 1px solid black;
-    opacity: 0.8;
     color: black;
     padding: 10px 15px;
     font-size: 20px;
+}
+.btn-white:hover{
+    border: 1px solid grey;
+    color: grey;
+    opacity: 0.5;
 }
 
 .btn-white:hover{
@@ -48,6 +59,9 @@
 }
 h2{
     font-size: 40px;
+}
+h3{
+    font-size: 25px;
 }
 p{
     font-size: 20px;
@@ -212,7 +226,7 @@ border-bottom: 1px solid black;
  }
 
 .colonne span{
-   line-height: 45px;
+   line-height: 35px;
    display: block;
 }
 
@@ -232,8 +246,12 @@ border-bottom: 1px solid black;
     margin: 55px auto 40px;
 }
 
+
 .testo-colonne{
     padding: 30px;
+}
+.utente span{
+    margin-top: 20px;
 }
 
 #colonne-divisore{
@@ -242,6 +260,9 @@ border-bottom: 1px solid black;
 }
 .punti{
     margin-top: 30px;
+}
+.svg-blu svg{
+    fill:#1a72ff ;
 }
 
 /* colonna orizontale */
@@ -296,10 +317,12 @@ border-bottom: 1px solid black;
     width: 40%;
     justify-content: center;
     padding: 40px;
-    line-height: 80px;
 }
 .container-btn-white{
     margin-top: 25px;
+}
+.row3-titolo{
+    margin-bottom: 40px;
 }
 /* quarto row main */
 
@@ -310,12 +333,19 @@ border-bottom: 1px solid black;
 }
 .row4-colonna2{
     gap: 50px;
+    margin-top: 60px;
     flex-wrap: wrap;
 }
 
 .container-operazioni{
     width:30%;
-    line-height: 70px;
+}
+
+.container-operazioni h4{
+    font-size: 25px;
+}
+.container-operazioni p{
+   margin-top: 30px;
 }
 
 /* quinto row main */
@@ -326,7 +356,11 @@ border-bottom: 1px solid black;
     margin-top: 150px;
 }
 .row5-container1{
-    line-height: 90px;
+    width: 55%;
+}
+.row5-link{
+    margin-top: 100px;
+
 }
 /* sento row main */
 
