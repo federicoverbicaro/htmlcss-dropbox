@@ -255,7 +255,9 @@ border-bottom: 1px solid black;
 .tasto{
     margin: 55px auto 40px;
 }
-
+.tasto span a{
+    color: #a89df3;
+}
 
 .testo-colonne{
     padding: 30px;
@@ -372,53 +374,59 @@ border-bottom: 1px solid black;
     margin-top: 100px;
 
 }
+.row5-link a{
+    margin-top: 100px;
+    color: #A89DF3;
+
+}
 /* sento row main */
 
 .row6{
-    width: 100%;
     margin-top: 100px;
 }
 
 .row6-container1,
 .row6-container2,
 .row6-container3{
+    aspect-ratio:1/1;
 width: calc(100% / 3);
-flex-wrap: wrap;
 }
+.row6-container1,
+.row6-container3{
+ flex-wrap: wrap; 
+}
+.row6-container1 > div,
+.row6-container3 > div{
+ flex-basis: calc(100% / 2);
+ aspect-ratio: 1;
+}
+
+
 .row6-container2{
     padding: 40px;
-    align-content: flex-start;
+    overflow-y: auto;
 }
 .row6-container2 img{
     width: 50%;
 }
-.scroll{
-    overflow-y: scroll;
-    height: 260px;
-}
-
 
 .row6-logo{
-    width:50%;
     position: relative;
-    padding-bottom: 50%;
-    height: 0;
 }
 
 .row6-logo img{
     width: 50%;
-    height: 70%;
-    object-fit: contain;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    fill: white;
+    filter: grayscale(100%) invert(100%);
 }
 .hr2{
     padding-top: 50px;
     padding-bottom: 50px;
     width: 30%;
+    opacity: 0.5;
 }
 .testo-designit p{
     margin-bottom: 50px;
@@ -428,6 +436,7 @@ flex-wrap: wrap;
 }
 .img2{
     background-color: #61082b;
+   
 }
 .img3{
     background-color: #0693ce;
